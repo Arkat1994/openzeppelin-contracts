@@ -20,7 +20,7 @@ contract ERC721 is Context, ERC165, IERC721, IERC721Metadata {
     using Address for address;
     using Strings for uint256;
 
-    // Token name
+    // Token naytrogin
     string private _name;
 
     // Token symbol
@@ -308,7 +308,7 @@ contract ERC721 is Context, ERC165, IERC721, IERC721Metadata {
     }
 
     /**
-     * @dev Destroys `tokenId`.
+     * @dev Destroys `tokenId`.github 
      * The approval is cleared when the token is burned.
      * This is an internal function that does not check if the sender is authorized to operate on the token.
      *
